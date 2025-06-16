@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Listing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Product Listing Page</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="todo.html">To-Do App</a>
+      <a href="products.html">Products</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div>
+      <label for="filter">Filter by category:</label>
+      <select id="filter" onchange="renderProducts()">
+        <option value="all">All</option>
+        <option value="electronics">Electronics</option>
+        <option value="books">Books</option>
+      </select>
+
+      <label for="sort">Sort by:</label>
+      <select id="sort" onchange="renderProducts()">
+        <option value="name">Name</option>
+        <option value="price">Price</option>
+      </select>
+    </div>
+
+    <div id="productList" class="grid"></div>
+  </main>
+
+  <script src="products.js"></script>
+</body>
+</html>

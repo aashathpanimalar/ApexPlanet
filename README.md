@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 45-Day Web Development Internship – ApexPlanet Software Pvt. Ltd.
 
@@ -139,5 +137,3 @@ Thank you to ApexPlanet for this wonderful learning opportunity. This internship
 ---
 
 ```
-
----
